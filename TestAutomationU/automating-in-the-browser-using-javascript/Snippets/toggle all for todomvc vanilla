@@ -1,0 +1,4 @@
+var toggles = document.querySelectorAll(".toggle");
+for(var togglepos=0; togglepos<toggles.length; togglepos++){
+	toggles[togglepos].click();
+}
